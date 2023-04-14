@@ -30,9 +30,8 @@
             border-radius: 21px;
             width: 73rem;
             height: 41rem;
-            // transition: all 0.5s cubic-bezier(0.47, 0, 0.745, 0.715);
-            // transform-origin: center;
-              
+            //         font-size: 0.59rem;
+  
         }
         .carouselImg:hover{
             // transform: scale(1.1);
@@ -116,8 +115,10 @@
             }
             .carouselImg:hover{
                 transform: scale(1.1);
-                width: 63rem;
-                height: 32rem;
+                
+                width: 79%;  
+                height: 70%;
+                
                 cursor: pointer;
             }
             .carouselToggle{
