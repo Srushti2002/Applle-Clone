@@ -1,0 +1,98 @@
+.rootNavbar{
+    background-color: black;
+    position: fixed;
+    color: black;
+    right: 0;
+    left: 0;
+    top: 0;
+
+   &.color{
+    backdrop-filter: blur(10px);
+    background-color: rgba(5, 7, 10, 0.5);
+   }
+   
+   &.active{
+    backdrop-filter: blur(10px);
+    background-color:  rgba(5, 7, 10, 0.5);
+   }
+    
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+        padding: 7px 5px 0px 5px;
+        font-size: 14px;
+        
+        justify-content: center;
+        
+        
+        .navbarControl{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        
+            a{
+                color:rgb(237, 240, 242);
+                margin: 0px;
+                padding: 20px 21px 0px 21px;
+            }
+       
+        
+
+             }
+        
+        img{
+            height: 40px;
+    
+            padding-top: 0px;
+            padding-bottom: 14px;
+            padding-left: 20px;
+        }
+        .phoneMenu{
+            display: none;
+        }
+    }
+
+}
+
+
+@media (max-width: 450px){
+    .rootNavbar{
+        .navbar{
+
+            justify-content: start;
+            .navbarControl{
+                display: none;
+           
+            }
+            .phoneMenu{
+                display: flex;
+                flex-direction: column;
+                color: rgb(237, 240, 242);
+                background-color: inherit;
+                padding-left: 11px;
+
+                   
+                
+                
+                a{
+                    color:rgb(237, 240, 242);
+                    background-color: inherit;
+                    text-align: left;
+
+                    
+   
+                }
+
+            }
+            img{
+                align-items: right;
+                height: 15px;
+                padding: 0px 5px 5px 1px;
+            }
+        }
+    }
+    
+}
+

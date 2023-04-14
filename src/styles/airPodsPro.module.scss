@@ -1,0 +1,69 @@
+.airPodsProRoot{
+    background: url("../images/airPodsPro.webp") no-repeat center center scroll;
+    background-size: 100% 100%;
+    float: right;
+    width: 49%;
+    height:  79vh;
+    margin: 7px 5px 2px 0px;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+    .airPodsProId{
+        height: 41px;
+    }
+    .airPodsProHead{
+        padding-top: 7px;
+        font-size: 51px; 
+    }
+    .airPodsProPara{
+        font-size: 31px;
+
+    }
+    .airPodsProLink{
+        font-weight: 400;
+        font-size: 21px;
+        padding: 0px 10px 20px 10px;
+
+        a{
+            padding: 20px;
+        }
+
+    }
+}
+
+@media (max-width: 450px){
+    .airPodsProRoot{
+        
+    background: url("../images/airPodsPro.webp") no-repeat center center scroll;
+    background-size: 100% 100%;
+    height: 25rem;
+    font-size: 21px;
+    width:auto;
+    float:none;
+    margin: 0px;
+    color:aliceblue;
+
+    .airPodsProHead{
+        padding-top: 10px;
+        font-size: 21px;
+    }
+
+    .airPodsProPara{
+        padding-top: 0px;
+        
+        font-size: 10px;
+    }
+
+    .airPodsProLink{
+        font-size: 10px;
+    
+        .a{
+            padding: 10px;
+        }
+        
+}
+    }
+    
+}

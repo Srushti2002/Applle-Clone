@@ -1,0 +1,73 @@
+.ipadRoot{
+    background: url("../images/iPad.png") no-repeat center center scroll;
+    background-size: 100% 100%;
+    float: left;
+    margin: 7px 0px 2px 0px;
+    height: 79vh;
+    
+    color: black;
+    width: 49%;
+
+    .ipadId{
+        height: 41px;
+    }
+    .ipadCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1{
+            font-size: 51px;
+            padding-top: 7px;
+        }
+
+        h3{
+            padding-top: 21px;
+            font-size: 31px;
+        }
+        .ipadLink{
+            display:flex;
+            padding: 1px 10px 20px 10px;
+            font-weight: 400;
+            font-size: 21px;
+
+            a{
+                padding: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 450px)  {
+    .ipadRoot{
+        background: url("https://www.macworld.com/wp-content/uploads/2022/08/10th-generation-ipad-renders-1.jpg?quality=50&strip=all&w=1024") no-repeat center center scroll;
+        background-size: 100% 100%;
+        float: none;
+        width: auto;
+        margin: 0px;
+        height: 25rem;
+        font-size: 21px;
+
+        .ipadCard{
+            h1{
+                padding-top: 10px;
+                font-size: 21px;
+            }
+        
+            h3{
+                padding-top: 0px;
+                
+                font-size: 10px;
+            }
+        
+            .ipadLink{
+                font-size: 10px;
+            
+                a{
+                    padding: 10px;
+                }
+            
+        }
+    }
+}
+}

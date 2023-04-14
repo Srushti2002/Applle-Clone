@@ -1,0 +1,93 @@
+.footerRoot{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(238, 239, 240);
+    padding: 1rem 1rem 0rem 1rem;
+    font-size: 1.5rem;
+    color:rgb(151, 151, 151);
+    .footerCopyright{
+        text-align: right;
+        padding-left: 1rem;
+        padding-right: 5rem;
+    }
+    .footerLinks{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    
+    a{
+        padding-right: 0.5rem;
+
+        text-align: center;
+        justify-content: center;
+        color: rgb(107, 107, 107);
+    }
+    
+    
+    }
+    .footerCountry{
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    }
+
+    .mine{
+        justify-content: end;
+    }
+}
+
+@media (max-width: 550px){
+    .footerRoot{
+        display: flex;
+        flex-direction: row;
+        background-color:rgb(238, 239, 240);
+        padding: 0.2rem 0.2rem 0rem 0.2rem;
+        font-size: 0.51rem;
+        color:rgb(151, 151, 151);
+        .footerCopyright{
+            text-align: right;
+            padding-left: 0.3rem;
+            padding-right: 0.5rem;
+        }
+        .footerLinks{
+        display:flex;
+        flex-direction: row;
+        text-align: center;
+        
+        a{
+            padding-right: 0.3rem;
+    
+            text-align: center;
+            justify-content: center;
+            color: rgb(107, 107, 107);
+        }
+        
+        
+        }
+        .footerCountry{
+        text-align: left;
+        padding-left: 2rem;
+        }
+
+        .mine{
+            justify-content: end;
+        }
+    }
+    
+
+}
+
+@media (max-width: 300px){
+    .footerRoot{
+        display: flex;
+        flex-direction: row;
+        background-color:rgb(238, 239, 240);
+        padding: 0.3rem 0.3rem 0rem 0.3rem;
+        font-size: 0.39rem;
+        color:rgb(151, 151, 151);
+
+        .mine{
+            justify-content: end;
+        }
+    }
+}

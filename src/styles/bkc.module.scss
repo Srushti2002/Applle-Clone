@@ -1,0 +1,59 @@
+.bkcRoot{
+    background: url("../images/bkc.png") no-repeat center center scroll;
+    background-size: 100% 100%;
+    float: left;
+    margin: 7px 0px 2px 5px;
+    height: 79vh;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    color:black;
+
+    .bkcId{
+        height: 41px;
+    }
+    .bkcMain{
+        padding-top: 7px;
+        font-size: 51px; 
+    }
+    .bkcPara{
+        font-size: 31px;
+        
+
+    }
+    .bkcLink{
+        font-weight: 400;
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 450px){
+    
+    .bkcRoot{
+        background: url("../images/bkc.png") no-repeat center center scroll;
+        float: none;
+        width: auto;
+        background-size: 100% 100%;
+        margin: 0px;
+        height: 25rem;
+        font-size: 21px;
+
+        .bkcMain{
+            padding-top: 10px;
+            font-size: 21px;
+        }
+    
+        .bkcPara{
+            padding-top: 10px;
+            
+            font-size: 10px;
+        }
+    
+        .bkcLink{
+            font-size: 10px;
+            
+            
+    }
+}
+}
