@@ -26,20 +26,20 @@
         font-size: 31px;
                 
     }
-    .href{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        font-size: 21px;
-        font-weight:400;
-        .watchLearn{
-            padding: 20px;
-        }
+    // .href{
+    //     display: flex;
+    //     flex-direction: row;
+    //     justify-content: center;
+    //     font-size: 21px;
+    //     font-weight:400;
+    //     .watchLearn{
+    //         padding: 20px;
+    //     }
 
-        .watchBuy{
-            padding: 20px;
-        }
-    }
+    //     .watchBuy{
+    //         padding: 20px;
+    //     }
+    // }
 
 }
 
@@ -62,21 +62,21 @@
         font-size: 10px;
     }
 
-    .href{
-        font-size: 10px;
+    // .href{
+    //     font-size: 10px;
         
-        .watchLearn{
-            padding: 3px;
-            padding-right: 5px;
+    //     .watchLearn{
+    //         padding: 3px;
+    //         padding-right: 5px;
         
-        }
+    //     }
 
-        .watchBuy{
+    //     .watchBuy{
             
-            padding: 3px;
-            padding-left: 5px;
-        }
-    }
+    //         padding: 3px;
+    //         padding-left: 5px;
+    //     }
+    // }
 
     }
 }

@@ -8,8 +8,8 @@ export default function Bkc(){
             <h1 className={classes.bkcMain}>Apple BKC</h1>
             <h2 className={classes.bkcPara}>India's first apple store <br />
             is arriving soon at Mumbai.</h2>
-            <a className={classes.bkcLink} href="https://www.apple.com/in/retail/bkc/">Learn more</a>
-            
+            {/* <a className={classes.bkcLink} href="https://www.apple.com/in/retail/bkc/">Learn more</a>
+             */}
         </div>
     )
 

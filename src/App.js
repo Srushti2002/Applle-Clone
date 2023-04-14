@@ -37,7 +37,7 @@ export default function App(){
       <Ipad />
       <Macbookpro />
       <br />
-      <Carousel images={images} autoPlay =  {false} autoplayInterval={3000} />
+      <Carousel images={images} autoPlay = {false} autoplayInterval={3000} />
       <Footer />
     </div>
   )

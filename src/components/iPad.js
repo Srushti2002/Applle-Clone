@@ -9,11 +9,11 @@ export default function Ipad(){
             <div id="newIpad" className={classes.ipadId}></div>
             <h1>iPad</h1>
             <h3>Lovable.Drawable.Magical.</h3>
-            <div className={classes.ipadLink}>
+            {/* <div className={classes.ipadLink}>
                 <a href="https://www.apple.com/in/ipad-10.9/">Learn More</a>
                 
                 <a href="https://www.apple.com/in/shop/buy-ipad/ipad">Buy</a>
-            </div>
+            </div> */}
             </div> 
         </div>
     )
