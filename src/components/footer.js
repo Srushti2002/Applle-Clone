@@ -15,7 +15,7 @@ export default function Footer(){
             <div className={classes.footerCountry}>India |
                 
             </div>
-            <div className={classes.mine}>Srushti Deshmukh</div>
+            <a className={classes.mine} href="https://linktr.ee/SrushtiDeshmukh">Srushti Deshmukh</a>
         </div>
     )
 }
