@@ -1,1 +1,1 @@
-Created Clone of apple website
+Created Clone of apple website.
