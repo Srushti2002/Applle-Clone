@@ -7,11 +7,13 @@ export default function(){
     function toggle(){
         setShow(prevState => !prevState)
     }
+
+    
     return(
         <div>
-            <GiHamburgerMenu onClick={toggle} />
+         <GiHamburgerMenu onClick={toggle} />
             {show ?
-             <ul>
+            <ul onClick={toggle}>
                 <li><a href="#newIphonePro">iPhone 14 Pro </a></li>
                 <li><a href="#newIphone">iPhone 14 </a></li>
                 <li><a href="#newIwatch">Watch </a></li>
@@ -24,7 +26,10 @@ export default function(){
                 <li><a href="#newMacBookPro">MacBook </a></li>
         
         
-             </ul>:
+             </ul>
+
+            
+             :
              <div></div>
 
             }

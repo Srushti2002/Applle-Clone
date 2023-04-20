@@ -56,6 +56,51 @@
 
 }
 
+@media (max-width: 700px){
+    .rootNavbar{
+        .navbar{
+
+            justify-content: start;
+            .navbarControl{
+                display: none;
+           
+            }
+            .phoneMenu{
+                display: flex;
+                flex-direction: column;
+                color: rgb(237, 240, 242);
+                background-color: inherit;
+                padding-left: 11px;
+                padding-top: 5px;
+                font-size: 25px;
+                padding-right: 25px;
+                padding-bottom: 5px;
+
+                   
+                
+                
+                a{
+                    color:rgb(237, 240, 242);
+                    background-color: inherit;
+                    text-align: left;
+
+                    
+   
+                }
+
+            }
+            img{
+                align-items: right;
+                height: 40px;
+                padding: 0px 5px 5px 1px;
+            }
+        }
+    }
+    
+}
+
+
+
 
 @media (max-width: 450px){
     .rootNavbar{
